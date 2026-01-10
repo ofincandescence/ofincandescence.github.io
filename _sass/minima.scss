@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Courier Prime";
+$base-font-family: "Courier Prime" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -10,13 +10,13 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #0f0e17 ;
-$background-color: #f5e9da ;
-$brand-color:      #a197ec ;
+$text-color:       #0f0e17 !default;
+$background-color: #f5e9da !default;
+$brand-color:      #a197ec !default;
 
-$grey-color:       #bf8282 ;
-$grey-color-light: lighten($grey-color, 40%) ;
-$grey-color-dark:  #7d5454 ;
+$grey-color:       #bf8282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  #7d5454 !default;
 
 $table-text-align: left !default;
 
