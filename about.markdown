@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hello. This site is currently under-construction. Yeah. So what are you doing here, silly? :P
+Hello. This site is currently under-construction. Especially this page! Oh no! You're not supposed to SEE this yet! AAAHH!!
