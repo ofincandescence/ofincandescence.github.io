@@ -97,7 +97,7 @@ Sorry about the poor quality. Once again, we may make a proper blog post later. 
 
 Well, after all this time, we can say now that it pupates for roughly 8 months, going into their pupa in late-winter / early-spring and emerging in mid-autumn the following year. This may be the only publicly available resource that mentions the pupation length of this species now, lol. This little blog hidden away in the depths of the internet, containing such obscure knowledge about a moth barely anyone cares about due to its location\...isn't that funny?
 
-We also remembering one resource saying there are two generations a year - that's kind of false? The entire lifespan is one year, considering their very lengthy pupation\... We're not sure where that "two generations a year" metric came from. Maybe they mean in a different way than we are imagining.
+We also remember one resource saying there are two generations a year - that's kind of false? The entire lifespan is one year, considering their very lengthy pupation\... We're not sure where that "two generations a year" metric came from. Maybe they mean in a different way than we are imagining.
 
 |
 
