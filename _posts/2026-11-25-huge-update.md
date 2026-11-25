@@ -35,6 +35,8 @@ The site is still built on the same [thing](https://jekyllrb.com/), though we ha
 
 Previously, it was basically an unmodified default theme with some minor configuration\... That's it. 
 
+<span class="dark-text">(Edit - Just a headsup, things may look weird on mobile. We've tried our best to resolve it, but we can't fix everything.)</span>
+
 |
 
 #### Gallery & Music
@@ -102,12 +104,12 @@ But y'know what? I'm not even gonna tell you about it!
 \...But okay fine you can have a screenshot and one <span class="dark-text">(1)</span> video. I was actually going to record new ones but **OBS** contested.
 
 <figure class="center-figure">
-	<a href="/assets/images/autumn-stratum/test-plane.png"><img class="common-media" src="/assets/images/autumn-stratum/test-plane.png" alt="The Test Plane"></a>
+	<a href="/assets/images/autumn-stratum/test-plane.png"><img src="/assets/images/autumn-stratum/test-plane.png" alt="The Test Plane"></a>
 	<p>Screenshot of the current testing area. Not much else to say or show. As you can see, the game is 3D and follows a surreal, vivid aesthetic. <a href="https://corru.observer">I wonder where we got that inspiration from...</a></p>
 </figure>
 
 <figure class="center-figure">
-	<video controls class="common-media">
+	<video controls>
 		<source src="/assets/videos/autumn-stratum/battle-system-prototype.mp4" type="video/mp4">
 		Your browser does not support the video element. This is an mp4, by the way.
 	</video>
@@ -150,21 +152,21 @@ Here are some pieces! Though be warned, many of these are **WIP**. They are also
 	</div>
 	<div class="audio-player-wrapper">
 		<p>Somewhere Other Than Elsewhere</p>
-		<audio controls class="audio-player">
+		<audio controls>
 			<source src="/assets/audio/autumn-stratum/Somewhere Other Than Elsewhere (In-Game Ver.).ogg" type="audio/ogg">
 			Your browser does not support the audio element.
 		</audio>
 	</div>
 	<div class="audio-player-wrapper">
 		<p>FIELD <span title="One of the first concept pieces we made testing the style. Might even be THE first. For Autumn Stratum, I mean." class="hint-text"><strong>(CONCEPT)</strong></span></p>
-		<audio controls class="audio-player">
+		<audio controls>
 			<source src="/assets/audio/autumn-stratum/FIELD.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
 		</audio>
 	</div>
 	<div class="audio-player-wrapper">
 		<p>Unnamed Battle Theme <span title="The first concept battle theme for Autumn Stratum. I do not think this is going to be used though, since it does not fit the style of the other songs." class="hint-text"><strong>(CONCEPT)</strong></span></p>
-		<audio controls class="audio-player">
+		<audio controls>
 			<source src="/assets/audio/autumn-stratum/(CONCEPT) Battle 1.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
 		</audio>

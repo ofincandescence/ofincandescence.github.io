@@ -4,6 +4,7 @@
 
 .site-header {
   background-image: $background-image, linear-gradient(to bottom, $header-tint, darken($incandescence-color, 10%) 200%);
+  background-repeat: no-repeat;
   background-attachment: fixed, local;
   background-size: cover;
   background-blend-mode: overlay;
@@ -22,6 +23,7 @@
   line-height: $base-line-height * $base-font-size * 2.5;
   letter-spacing: -1px;
   margin-bottom: 0;
+  white-space: nowrap;
   float: left;
 
   color: $bright-incandescence-color;
@@ -144,6 +146,7 @@
   border-top: 1px solid $incandescence-color;
   padding: $spacing-unit 0;
   background-image: $background-image;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -214,6 +217,7 @@
 .page-content {
   padding: calc(#{$spacing-unit} * 1.5) 0;
   background-image: $background-image-blurred, linear-gradient(to bottom, $background-tint, darken($background-tint, 15%));
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
@@ -339,6 +343,7 @@
   padding-bottom: 16px;
   max-width: 542px;
   text-align: center;
+  overflow: auto;
 
   font-size: 0.92em;
   color: $bright-incandescence-color;
@@ -347,15 +352,17 @@
   border: 1px solid $dark-incandescence-color;
   background-color: $figure-color;
   background-image: $background-image-blurred;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: luminosity;
 }
 
-.common-media {
+.center-figure img, video {
   border: 1px solid $bright-incandescence-color;
   margin: 16px auto;
-	max-width: 540px;
+  width: 540px;
+	max-width: 100%;
   box-shadow: 0px 1px 4px 1px $incandescence-color, 0px 2px 8px 3px $dark-incandescence-color, 0px 4px 12px 4px $figure-color-dark;
 }
 
@@ -372,7 +379,7 @@
   text-align: right;
 }
 
-.audio-player {
+.center-figure audio {
   border: 1px solid $bright-incandescence-color;
   margin: 16px;
   margin-right: 0px;
