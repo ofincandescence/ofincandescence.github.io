@@ -30,5 +30,5 @@ layout: default
 </article>
 
 {%- if page.thumbnail -%}
-<meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
+<meta property="og:image" content="{{ page.thumbnail | relative_url }}">
 {%- endif -%}
