@@ -3,20 +3,38 @@
 // Define defaults for each variable.
 
 $base-font-family: "Courier Prime" !default;
-$base-font-size:   16px !default;
+$base-font-size:   17px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #0f0e17 !default;
-$background-color: #f5e9da !default;
-$brand-color:      #a197ec !default;
+$text-color:       #f5d6b3 !default;
+$shadow-color:     #19103d !default;
+$background-color: #1f1b25 !default;
+$brand-color:      #6756e0 !default;
+$brand-color-visited: #6f2a54 !default;
+$brand-color-glow: #a8c1ff !default;
 
-$grey-color:       #bf8282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  #7d5454 !default;
+$bright-incandescence-color: #ffe6d0 !default;
+$incandescence-color: #ffa041 !default;
+$dark-incandescence-color: #e34e49 !default;
+$darker-incandescence-color: #8f1f4c !default;
+
+$figure-color: #5e4a55 !default;
+$figure-color-dark: #252c50 !default;
+
+$grey-color:       $incandescence-color !default;
+$grey-color-light: $bright-incandescence-color !default;
+$grey-color-dark:  $dark-incandescence-color !default;
+
+
+$background-image: url('/assets/images/stratum_clouds.png');
+$background-image-blurred: url('/assets/images/stratum_clouds_blurred.png');
+$background-tint: #694136 !default;
+$body-tint: #886579 !default; // Currently unused, old background tint
+$header-tint: #6f533f !default;
 
 $table-text-align: left !default;
 

@@ -11,15 +11,24 @@ layout: page
   }
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 8em;
     line-height: 1;
     letter-spacing: -1px;
+    text-shadow: 2px 2px 12px salmon, 4px 4px 32px crimson, 2px 2px 2px wheat;
+  }
+  strong {
+    font-size: 1.5em;
   }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Something TERRIBLE has happened!</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>The destination could not be found.</strong></p>
+  <p>
+    The requested page does not exist.<br>
+    Perhaps it had at some point?<br>
+    We all cross the event horizon eventually.<br>
+    ...Best you return <a href="{{ "/" | relative_url }}">home.</a>
+  </p>
 </div>

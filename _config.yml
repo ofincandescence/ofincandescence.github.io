@@ -21,7 +21,7 @@
 author: Of Incandescence
 title: Of Incandescence's Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Of Incandescence's own, suuuper secret blog...!
+  The place Of Incandescence...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ofincandescence.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -49,3 +49,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - gallery.md
+  - music.md
+  - about.md
