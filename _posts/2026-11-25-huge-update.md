@@ -81,7 +81,7 @@ I probably won't go too much into details of the project itself in this post, as
 
 We are on revision **two**, with boards and components on hand and everything. Just need to solder it\... <span class="dark-text">Which we already had but it didn't work out the first time.</span>
 
-The primarily complication and source of procrastination at this point is the fact it is almost entirely an <span class="hint-text" title="'surface-mount technology' ; 'surface-mount device' ; 'annoyingly tiny little components often unsolderable with a soldering iron'">**SMD**</span> board.
+The primary complication and source of procrastination at this point is the fact it is almost entirely an <span class="hint-text" title="'surface-mount technology' ; 'surface-mount device' ; 'annoyingly tiny little components often unsolderable with a soldering iron'">**SMD**</span> board.
 
 The process of assembling a board takes roughly six hours. The process is as follows;
 - **Apply solder paste to the board via a stencil.** Do this with <span style="text-decoration: underline;">micrometer</span> precision! Do not smear anything! Or you're toast! Hehe!

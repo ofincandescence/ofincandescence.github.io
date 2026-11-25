@@ -61,6 +61,10 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@mixin relative-font-size-clamp($ratio1, $ratio2) {
+  font-size: clamp($base-font-size * $ratio1, 5vw, $base-font-size * $ratio2);
+}
+
 // Import partials.
 @import
   "minima/base",
