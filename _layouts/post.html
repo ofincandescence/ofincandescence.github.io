@@ -4,9 +4,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   {%- if page.thumbnail -%}
-  <div itemprop="image">
-	  <img class="post-thumbnail" src="{{ page.thumbnail | relative_url }}" alt="Thumbnail">
-  </div>
+  <img class="post-thumbnail" src="{{ page.thumbnail | relative_url }}" alt="Thumbnail">
   {%- endif -%}
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>

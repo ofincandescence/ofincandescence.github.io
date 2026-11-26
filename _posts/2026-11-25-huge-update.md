@@ -2,7 +2,7 @@
 layout: post
 title: "Huge Updates"
 permalink: /posts/huge-updates
-thumbnail: /assets/images/favicon.png
+thumbnail: /assets/images/autumn-stratum/test-plane.png
 tags: ["General Update", "Site Update"]
 ---
 
@@ -35,7 +35,7 @@ The site is still built on the same [thing](https://jekyllrb.com/), though we ha
 
 Previously, it was basically an unmodified default theme with some minor configuration\... That's it. 
 
-<span class="dark-text">(Edit - Just a headsup, things may look weird on mobile. We've tried our best to resolve it, but we can't fix everything.)</span>
+<span class="dark-text">(Edit - Just a headsup, things may look weird on mobile. We've tried our best to resolve it, but we can't fix everything at this moment.)</span>
 
 |
 
