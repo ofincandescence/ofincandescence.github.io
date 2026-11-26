@@ -88,9 +88,11 @@
     top: 9px;
     right: $spacing-unit * 0.5;
     background-color: $background-color;
+    mix-blend-mode: screen;
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
+    box-shadow: 0px 0px 4px 1px $incandescence-color, 0px 1px 8px 3px $dark-incandescence-color;
+    border-radius: 24px;
 
     label[for="nav-trigger"] {
       display: block;
@@ -109,6 +111,7 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      box-shadow: none;
 
       > svg {
         fill: $grey-color-dark;
@@ -256,9 +259,10 @@
 
 .post-list-thumbnail {
 	max-height: 64px;
-  transform: translateX(calc(-100% - 16px)); 
-	margin-right: calc(-100% + 16px);
+  transform: translateX(calc(-100% - 18px)); 
+	margin-right: calc(-100% + 18px);
   box-shadow: 0px 0px 2px 1px $incandescence-color, 0px 1px 4px 2px $dark-incandescence-color;
+  border-radius: 4px;
   float: left;
 }
 
@@ -293,9 +297,10 @@
 .post-thumbnail {
   margin-left: 16px;
   margin-bottom: 16px;
-	max-height: 150px;
+	max-height: 158px;
   float: right;
   border: 1px solid lighten($incandescence-color, 10%);
+  border-radius: 8px;
   box-shadow: 0px 1px 3px 1px $incandescence-color, 0px 2px 5px 2px $dark-incandescence-color;
 }
 

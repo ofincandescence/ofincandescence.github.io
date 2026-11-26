@@ -2,7 +2,7 @@
 layout: post
 title: "Huge Updates"
 permalink: /posts/huge-updates
-thumbnail: /assets/images/autumn-stratum/test-plane.png
+thumbnail: /assets/images/thumbnails/huge-updates.png
 tags: ["General Update", "Site Update"]
 ---
 
